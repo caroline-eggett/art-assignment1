@@ -1,0 +1,70 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}  
+header {  
+background-color: rgb(106, 187, 224);  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 60px; 
+text-align: center; 
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black; 
+justify-content: center;
+}  
+header * {  
+top: 30px;
+}  
+header li {  
+margin: 20px;
+display: inline-block;
+}  
+header li a {  
+color: white;  
+text-decoration: none;  
+}  
+
+/* .example img {
+    width: 100%;
+    position: relative;
+} */
+  
+body::after {
+    content: "";
+    background: url('portfolio_homepage.jpeg');
+    background-size: cover;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+#second {
+    font-size: 100px;
+    width: 550px;
+    overflow-wrap: break-word;
+    margin-top: 150px;
+    opacity: 0.95;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 rgb(255, 255, 255),
+               0 3px 0 rgb(255, 255, 255),
+               0 4px 0 rgb(255, 255, 255),
+               0 5px 0 rgb(255, 255, 255),
+               0 6px 1px rgb(255, 255, 255),
+               0 0 5px rgb(255, 255, 255),
+               0 1px 3px rgb(255, 255, 255),
+               0 3px 5px rgb(255, 255, 255),
+               0 5px 10px rgb(255, 255, 255),
+               0 10px 10px rgb(255, 255, 255),
+               0 20px 20px rgb(255, 255, 255);
+}
