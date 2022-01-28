@@ -7,7 +7,7 @@ background-size: cover;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }  
 header {  
-background-color: rgb(106, 187, 224);  
+background-color: rgb(204, 137, 11);  
 position: fixed;  
 left: 0;  
 right: 0;  
@@ -42,16 +42,17 @@ h1:after {
     position: relative;
 } */
 
+.names {font-family: "EB Garamond"; font-size: 50px; margin-left: 20px; letter-spacing: 1px;}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 25px 10px;
   }
 
   .grid-item {
-    padding: 20px;
-    font-size: 30px;
+    padding-left: 20px;
     /* text-align: center; */
+    margin-top: -30px;
   }
 
   .grid-container img {
